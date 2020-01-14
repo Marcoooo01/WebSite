@@ -1,10 +1,9 @@
 var express = require('express');
 var router = express.Router();
 var unirest = require("unirest");
-
-let playerID = request.getParameter('ID');
-let season = request.getParameter('season');
-
+const fs = require('fs');
+let playerID = 242
+let season = "2019-2020"
 router.get('/', function(req, res, next) {
     var req = unirest("GET", "https://api-football-v1.p.rapidapi.com/v2/players/player/" + playerID + "/" + season);
 
@@ -15,10 +14,10 @@ router.get('/', function(req, res, next) {
 
     
     req.end(function (res) {
-	   if (res.error) throw new Error(res.error);
-
-    console.log(res.body);
-    res.render('statistics');
+       if (res.error) throw new Error(res.error);
+    let data = JSON.stringify(res.body);
+    fs.writeFileSync('player.json', data);
+    console.log(res);
 });
 
 });

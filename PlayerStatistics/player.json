@@ -1,0 +1,232 @@
+{
+    "api": {
+        "results": 3,
+        "players": [
+            {
+                "player_id": 242,
+                "player_name": "R. Thomas",
+                "firstname": "Ryan",
+                "lastname": "Thomas",
+                "number": null,
+                "position": "Midfielder",
+                "age": 26,
+                "birth_date": "20/12/1994",
+                "birth_place": "Auckland",
+                "birth_country": "New Zealand",
+                "nationality": "New Zealand",
+                "height": "176 cm",
+                "weight": "61 kg",
+                "injured": null,
+                "rating": "6.560000",
+                "team_id": 197,
+                "team_name": "PSV Eindhoven",
+                "league": "Eredivisie",
+                "season": "2019-2020",
+                "captain": 0,
+                "shots": {
+                    "total": 2,
+                    "on": 2
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": 0
+                },
+                "passes": {
+                    "total": 192,
+                    "key": 6,
+                    "accuracy": 82
+                },
+                "tackles": {
+                    "total": 7,
+                    "blocks": 2,
+                    "interceptions": 5
+                },
+                "duels": {
+                    "total": 0,
+                    "won": 0
+                },
+                "dribbles": {
+                    "attempts": 0,
+                    "success": 0
+                },
+                "fouls": {
+                    "drawn": 6,
+                    "committed": 4
+                },
+                "cards": {
+                    "yellow": 1,
+                    "yellowred": 0,
+                    "red": 1
+                },
+                "penalty": {
+                    "won": 0,
+                    "commited": 0,
+                    "success": 0,
+                    "missed": 0,
+                    "saved": 0
+                },
+                "games": {
+                    "appearences": 5,
+                    "minutes_played": 281,
+                    "lineups": 4
+                },
+                "substitutes": {
+                    "in": 1,
+                    "out": 1,
+                    "bench": 5
+                }
+            },
+            {
+                "player_id": 242,
+                "player_name": "R. Thomas",
+                "firstname": "Ryan",
+                "lastname": "Thomas",
+                "number": null,
+                "position": "Midfielder",
+                "age": 26,
+                "birth_date": "20/12/1994",
+                "birth_place": "Auckland",
+                "birth_country": "New Zealand",
+                "nationality": "New Zealand",
+                "height": "176 cm",
+                "weight": "61 kg",
+                "injured": null,
+                "rating": "6.866666",
+                "team_id": 197,
+                "team_name": "PSV Eindhoven",
+                "league": "UEFA Europa League",
+                "season": "2019-2020",
+                "captain": 0,
+                "shots": {
+                    "total": 0,
+                    "on": 0
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": 0
+                },
+                "passes": {
+                    "total": 55,
+                    "key": 0,
+                    "accuracy": 76
+                },
+                "tackles": {
+                    "total": 5,
+                    "blocks": 0,
+                    "interceptions": 4
+                },
+                "duels": {
+                    "total": 0,
+                    "won": 0
+                },
+                "dribbles": {
+                    "attempts": 2,
+                    "success": 2
+                },
+                "fouls": {
+                    "drawn": 1,
+                    "committed": 2
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": 0,
+                    "commited": 0,
+                    "success": 0,
+                    "missed": 0,
+                    "saved": 0
+                },
+                "games": {
+                    "appearences": 3,
+                    "minutes_played": 78,
+                    "lineups": 1
+                },
+                "substitutes": {
+                    "in": 2,
+                    "out": 1,
+                    "bench": 3
+                }
+            },
+            {
+                "player_id": 242,
+                "player_name": "R. Thomas",
+                "firstname": "Ryan",
+                "lastname": "Thomas",
+                "number": null,
+                "position": "Midfielder",
+                "age": 26,
+                "birth_date": "20/12/1994",
+                "birth_place": "Auckland",
+                "birth_country": "New Zealand",
+                "nationality": "New Zealand",
+                "height": "176 cm",
+                "weight": "61 kg",
+                "injured": null,
+                "rating": null,
+                "team_id": 197,
+                "team_name": "PSV Eindhoven",
+                "league": "UEFA Champions League",
+                "season": "2019-2020",
+                "captain": 0,
+                "shots": {
+                    "total": 0,
+                    "on": 0
+                },
+                "goals": {
+                    "total": 0,
+                    "conceded": 0,
+                    "assists": 0
+                },
+                "passes": {
+                    "total": 0,
+                    "key": 0,
+                    "accuracy": 0
+                },
+                "tackles": {
+                    "total": 0,
+                    "blocks": 0,
+                    "interceptions": 0
+                },
+                "duels": {
+                    "total": 0,
+                    "won": 0
+                },
+                "dribbles": {
+                    "attempts": 0,
+                    "success": 0
+                },
+                "fouls": {
+                    "drawn": 0,
+                    "committed": 0
+                },
+                "cards": {
+                    "yellow": 0,
+                    "yellowred": 0,
+                    "red": 0
+                },
+                "penalty": {
+                    "won": 0,
+                    "commited": 0,
+                    "success": 0,
+                    "missed": 0,
+                    "saved": 0
+                },
+                "games": {
+                    "appearences": 0,
+                    "minutes_played": 0,
+                    "lineups": 0
+                },
+                "substitutes": {
+                    "in": 0,
+                    "out": 0,
+                    "bench": 0
+                }
+            }
+        ]
+    }
+}
