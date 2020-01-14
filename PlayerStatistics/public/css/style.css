@@ -33,7 +33,9 @@ table {
 	border-collapse:collapse;
 	border-spacing:0;
 }
-
+float{
+    float=right;
+}
 
 /* start editing from here */
 a {
