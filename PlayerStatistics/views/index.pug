@@ -1,0 +1,91 @@
+doctype html
+head
+  title Softball Registration Form Flat Responsive widget Template :: w3layouts
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+  meta(name='keywords', content='Softball Registration Form Widget Responsive, Login form web template,Flat Pricing tables,Flat Drop downs  Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design')
+  script(type='application/x-javascript').
+    addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+  // font files
+  link(href='//fonts.googleapis.com/css?family=Spectral', rel='stylesheet')
+  // /font files
+  // css files
+  link(href='css/style.css', rel='stylesheet', type='text/css', media='all')
+  // /css files
+  link(href='css/wickedpicker.css', rel='stylesheet', type='text/css', media='all')
+  script(type='text/javascript', src='js/jquery-2.1.4.min.js')
+.w3-banner-main
+  .center-container
+    h1.header-w3ls Softball Registration Form
+    .content-top
+      .content-w3ls
+        .form-w3ls
+          form(action='#', method='post')
+            .content-wthree1
+              .grid-agileits1
+                .form-control
+                  label.header Player Name
+                  input#name(type='text', name='name', placeholder='', title='Please enter your Full Name', required='')
+                .form-control
+                  label.header Email
+                  input#email(type='email', name='email', placeholder='', title='Please enter a Valid Email Address', required='')
+                .form-control
+                  label.header Parent Name
+                  input#name(type='text', name='name', placeholder='', title='Please enter your Full Name', required='')
+                .grid-w3layouts1
+                  .w3-agile1
+                    label.rating Choose gender
+                    ul
+                      li
+                        input#a-option(type='radio', name='selector1')
+                        label(for='a-option') Male
+                        .check
+                      li
+                        input#b-option(type='radio', name='selector1')
+                        label(for='b-option') Female
+                        .check
+                          .inside
+                .form-control
+                  label.header Date of joining
+                  input#datepicker1(name='Text', type='text', value='', onfocus="this.value = '';", onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}", required='')
+                .gaps
+                  label.header Time
+                  input#timepicker.timepicker.form-control(type='text', name='Time', value='')
+        .form-w3ls-1
+          .form-control
+            label.header Phone Number
+            input#name(type='text', name='phone number', placeholder='', title='Please enter your Phone Number', required='')
+          .form-control
+            label.header Address
+            input#name(type='text', name='name', placeholder='', title='Please enter your Full Name', required='')
+          .form-control
+            label.header Zip code
+            input#name(type='text', name='name', placeholder='', title='Please enter your Full Name', required='')
+          .form-control
+            label.header City
+            select.form-control
+              option
+              option City-1
+              option City-2
+              option City-3
+              option City-4
+              option City-5
+          .form-control.Insurance
+            label.header would like to play
+            textarea(name='name', placeholder='', title='', required='')
+          input(type='submit', value='Registration')
+        .clear
+    p.copyright
+      | &copy; 2018 Softball Registration Form. All Rights Reserved | Design by
+      a(href='https://w3layouts.com/', target='_blank') W3layouts
+// Calendar
+link(rel='stylesheet', href='css/jquery-ui.css')
+script(src='js/jquery-ui.js')
+script.
+  $(function() {
+  $( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
+  });
+// //Calendar
+script(type='text/javascript', src='js/wickedpicker.js')
+script(type='text/javascript').
+  $('.timepicker').wickedpicker({twentyFour: false});
