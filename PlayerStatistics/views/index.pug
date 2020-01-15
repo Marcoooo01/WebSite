@@ -1,48 +1,61 @@
 doctype html
+//
+  A Design by W3layouts
+  Author: W3layout
+  Author URL: http://w3layouts.com
+  License: Creative Commons Attribution 3.0 Unported
+  License URL: http://creativecommons.org/licenses/by/3.0/
 head
   title= title
-  meta(name='viewport', content='width=device-width, initial-scale=1')
-  meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
-  meta(name='keywords', content='Softball Registration Form Widget Responsive, Login form web template,Flat Pricing tables,Flat Drop downs  Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  meta(http-equiv='Content-Type' content='text/html; charset=utf-8')
+  meta(name='keywords' content='Softball Registration Form Widget Responsive, Login form web template,Flat Pricing tables,Flat Drop downs  Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design')
   script(type='application/x-javascript').
-            addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+    addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
   // font files
-  link(href='//fonts.googleapis.com/css?family=Spectral', rel='stylesheet')
+  link(href='//fonts.googleapis.com/css?family=Spectral' rel='stylesheet')
   // /font files
   // css files
-  link(href='css/style.css', rel='stylesheet', type='text/css', media='all')
+  link(href='css/style.css' rel='stylesheet' type='text/css' media='all')
   // /css files
-  link(href='css/wickedpicker.css', rel='stylesheet', type='text/css', media='all')
-  script(type='text/javascript', src='js/jquery-2.1.4.min.js')
+  link(href='css/wickedpicker.css' rel='stylesheet' type='text/css' media='all')
+  script(type='text/javascript' src='js/jquery-2.1.4.min.js')
 .w3-banner-main
   .center-container
     h1.header-w3ls #{title}
     .content-top
       .content-w3ls
         .form-w3ls
-          form(action='./routes/statistics', method='post')
+          form(action='./routes/' method='post')
             .content-wthree1
               .grid-agileits1
-                .form-control
-                  label.header Player ID
-                  input#name(type='text', name='ID', placeholder='', title='Please enter the Player ID', required='')
+                .grid-w3layouts1
+                  .w3-agile1
+                    label.rating Choose Type Of Statistics 
+                    ul
+                      li
+                        input#a-option(type='radio' name='/TeamStatistic')
+                        label(for='a-option') For Team
+                        .check
+                      li
+                        input#b-option(type='radio' name='/SeasonStatistic')
+                        label(for='b-option') For Season
+                        .check
+                          .inside
         .form-w3ls-1
-          .form-control
-            label.header Season
-            input#name(type='text', name='season', placeholder='', title='Please enter the Season', required='')
-          br
-          input(type='submit', value='Search')
+          input(type='submit' value='Registration')
         .clear
     p.copyright
-      | &copy; 2019 Player Statistics All Rights Reserved | Design by V E INF
+      | &copy; 2018 Softball Registration Form. All Rights Reserved | Design by 
+      a(href='https://w3layouts.com/' target='_blank') W3layouts
 // Calendar
-link(rel='stylesheet', href='css/jquery-ui.css')
+link(rel='stylesheet' href='css/jquery-ui.css')
 script(src='js/jquery-ui.js')
 script.
   $(function() {
   $( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
   });
 // //Calendar
-script(type='text/javascript', src='js/wickedpicker.js')
+script(type='text/javascript' src='js/wickedpicker.js')
 script(type='text/javascript').
   $('.timepicker').wickedpicker({twentyFour: false});

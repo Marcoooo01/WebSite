@@ -9,7 +9,7 @@ let season = "2019-2020"
 
 router.get('/', function(req, res, next) {
     var req = unirest("GET", "https://api-football-v1.p.rapidapi.com/v2/players/player/" + playerID + "/" + season);
-
+    //var req = unirest("GET", "https://api-football-v1.p.rapidapi.com/v2/players/player/");
     req.headers({
 	    "x-rapidapi-host": "api-football-v1.p.rapidapi.com",
 	    "x-rapidapi-key": "a2ae53bc72msh84bc3f802710728p1315a2jsn0e80fa69b580"
