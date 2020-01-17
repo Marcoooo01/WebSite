@@ -1,10 +1,4 @@
 doctype html
-//
-  A Design by W3layouts
-  Author: W3layout
-  Author URL: http://w3layouts.com
-  License: Creative Commons Attribution 3.0 Unported
-  License URL: http://creativecommons.org/licenses/by/3.0/
 head
   title= title
   meta(name='viewport' content='width=device-width, initial-scale=1')
@@ -26,28 +20,27 @@ head
     .content-top
       .content-w3ls
         .form-w3ls
-          form(action='./routes/' method='post')
+          form(action='../routes/page.js' method='post')
             .content-wthree1
               .grid-agileits1
                 .grid-w3layouts1
                   .w3-agile1
-                    label.rating Choose Type Of Statistics 
+                    label.rating Types Of Statistics 
                     ul
                       li
-                        input#a-option(type='radio' name='/TeamStatistic')
-                        label(for='a-option') For Team
+                        input#a-option(type='radio' name='selector1')
+                        label(for='a-option') All
                         .check
                       li
-                        input#b-option(type='radio' name='/SeasonStatistic')
-                        label(for='b-option') For Season
+                        input#b-option(type='radio' name='selector1')
+                        label(for='b-option') Season
                         .check
                           .inside
         .form-w3ls-1
-          input(type='submit' value='Registration')
+          br
+          br
+          input(type='submit' value='Done')
         .clear
-    p.copyright
-      | &copy; 2018 Softball Registration Form. All Rights Reserved | Design by 
-      a(href='https://w3layouts.com/' target='_blank') W3layouts
 // Calendar
 link(rel='stylesheet' href='css/jquery-ui.css')
 script(src='js/jquery-ui.js')
