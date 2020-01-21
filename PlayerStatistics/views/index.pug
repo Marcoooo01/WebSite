@@ -20,7 +20,7 @@ head
     .content-top
       .content-w3ls
         .form-w3ls
-          form(action='../routes/page.js' method='post')
+          form(action='/page' method='post')
             .content-wthree1
               .grid-agileits1
                 .grid-w3layouts1
@@ -28,18 +28,15 @@ head
                     label.rating Types Of Statistics 
                     ul
                       li
-                        input#a-option(type='radio' name='selector1')
+                        input#a-option(type='radio' name='selector1' value='a' checked)
                         label(for='a-option') All
                         .check
                       li
-                        input#b-option(type='radio' name='selector1')
+                        input#b-option(type='radio' name='selector1' value='b')
                         label(for='b-option') Season
                         .check
                           .inside
-        .form-w3ls-1
-          br
-          br
-          input(type='submit' value='Done')
+                  input(type='Submit' value='Done')
         .clear
 // Calendar
 link(rel='stylesheet' href='css/jquery-ui.css')
